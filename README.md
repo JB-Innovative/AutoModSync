@@ -1,9 +1,9 @@
 # AutoModSync - Revolutionizing Minecraft Modded Server Joins (Development Stage)
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Discord](https://img.shields.io/discord/YOUR_DISCORD_SERVER_ID?color=7289DA&label=Discord&logo=discord&logoColor=white)](YOUR_DISCORD_INVITE_LINK)
-[![GitHub Issues](https://img.shields.io/github/issues/YOUR_GITHUB_USERNAME/AutoModSync)](https://github.com/YOUR_GITHUB_USERNAME/AutoModSync/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/pulls/YOUR_GITHUB_USERNAME/AutoModSync)](https://github.com/YOUR_GITHUB_USERNAME/AutoModSync/pulls)
+[![Discord](https://img.shields.io/discord/1361730617926095030?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/we9cP9Ta8D)
+[![GitHub Issues](https://img.shields.io/github/issues/JB-Innovative/AutoModSync)](https://github.com/JB-Innovative/AutoModSync/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/pulls/JB-Innovative/AutoModSync)](https://github.com/JB-Innovative/AutoModSync/pulls)
 
 **Welcome to the development repository for AutoModSync!**
 
@@ -36,7 +36,7 @@ While AutoModSync is still in its early stages, your interest and potential cont
 * **Follow the Development:** Star this repository to stay updated on our progress and receive notifications about new commits and releases.
 * **Provide Feedback & Ideas:** Open an issue to share your thoughts, suggestions, and potential use cases. We're eager to hear your ideas on how to make AutoModSync the best it can be!
 * **Report Bugs (When Applicable):** Once we have early testable builds, please report any bugs or unexpected behavior you encounter. Clear and detailed bug reports are incredibly helpful.
-* **Join the Discussion:** Connect with the development team and other interested individuals on our [Discord Server](YOUR_DISCORD_INVITE_LINK).
+* **Join the Discussion:** Connect with the development team and other interested individuals on our [Discord Server](https://discord.gg/we9cP9Ta8D).
 
 ## 🛠️ Contributing (Future Opportunities) 🛠️
 
@@ -50,9 +50,9 @@ As the project matures, we will be opening up opportunities for code contributio
 
 AutoModSync is being developed with the following key technologies and principles in mind:
 
-* **Minecraft Modding API:** [Specify Forge or Fabric, or mention plans for both]
+* **Minecraft Modding APIs:** Fabric,Forge,NEOForge.
 * **Network Communication:** Utilizing IPv6 TCP for secure and modern data transfer.
-* **Data Serialization:** [Mention any specific libraries being used for data transfer]
+* **Data Serialization:** Not there yet.
 * **Asynchronous Operations:** Aiming for non-blocking operations to minimize impact on game loading times.
 * **Modularity:** Designing the codebase with clear separation of concerns for maintainability and extensibility.
 
