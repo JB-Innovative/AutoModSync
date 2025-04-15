@@ -1,0 +1,5 @@
+{
+  "itemGroup.automodsync_neoforge_client": "Example Mod Tab",
+  "block.automodsync_neoforge_client.example_block": "Example Block",
+  "item.automodsync_neoforge_client.example_item": "Example Item"
+}

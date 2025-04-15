@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "automodsync-fabric-server",
+  "version": "${version}",
+
+  "name": "AutoModSync-Fabric-Server",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/automodsync-fabric-server/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": ["org.jb.automodsyncFabricServer.client.AutomodsyncFabricServerDataGenerator"],
+    "main": ["org.jb.automodsyncFabricServer.AutomodsyncFabricServer"]
+  },
+
+  "mixins": [
+    "automodsync-fabric-server.mixins.json"
+    ,{
+      "config": "automodsync-fabric-server.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
